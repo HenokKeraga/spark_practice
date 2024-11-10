@@ -1,0 +1,1 @@
+Use foreachPartition for Distributed Printing (if printing across partitions is required): In a distributed environmen you might want to print each partition individually. foreachPartition can be used to achieve this by applying the println function within each partition

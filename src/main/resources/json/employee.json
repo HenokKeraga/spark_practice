@@ -1,0 +1,161 @@
+[
+  {
+    "id": 1,
+    "name": "Alice",
+    "age": 29,
+    "department": "Engineering",
+    "salary": 75000,
+    "address": {
+      "city": "New York",
+      "state": "NY"
+    },
+    "skills": [
+      "Python",
+      "Java",
+      "SQL"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bob",
+    "age": 35,
+    "department": "Engineering",
+    "salary": 82000,
+    "address": {
+      "city": "San Francisco",
+      "state": "CA"
+    },
+    "skills": [
+      "Scala",
+      "Spark",
+      "Hadoop"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Carol",
+    "age": 28,
+    "department": "Human Resources",
+    "salary": 60000,
+    "address": {
+      "city": "Chicago",
+      "state": "IL"
+    },
+    "skills": [
+      "Communication",
+      "Recruiting"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "David",
+    "age": 42,
+    "department": "Finance",
+    "salary": 95000,
+    "address": {
+      "city": "Boston",
+      "state": "MA"
+    },
+    "skills": [
+      "Excel",
+      "Accounting",
+      "Budgeting"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Eve",
+    "age": 31,
+    "department": "Marketing",
+    "salary": 70000,
+    "address": {
+      "city": "Seattle",
+      "state": "WA"
+    },
+    "skills": [
+      "SEO",
+      "Content Writing",
+      "Social Media"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Frank",
+    "age": 45,
+    "department": "Engineering",
+    "salary": 100000,
+    "address": {
+      "city": "Austin",
+      "state": "TX"
+    },
+    "skills": [
+      "C++",
+      "Linux",
+      "Networking"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Grace",
+    "age": 27,
+    "department": "Product Management",
+    "salary": 85000,
+    "address": {
+      "city": "Denver",
+      "state": "CO"
+    },
+    "skills": [
+      "Product Design",
+      "Agile",
+      "Scrum"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Hank",
+    "age": 39,
+    "department": "Sales",
+    "salary": 90000,
+    "address": {
+      "city": "Miami",
+      "state": "FL"
+    },
+    "skills": [
+      "Negotiation",
+      "CRM",
+      "Lead Generation"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Ivy",
+    "age": 34,
+    "department": "Customer Support",
+    "salary": 55000,
+    "address": {
+      "city": "Atlanta",
+      "state": "GA"
+    },
+    "skills": [
+      "Problem Solving",
+      "Communication",
+      "Empathy"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "John",
+    "age": 30,
+    "department": "Engineering",
+    "salary": 78000,
+    "address": {
+      "city": "Dallas",
+      "state": "TX"
+    },
+    "skills": [
+      "Python",
+      "SQL",
+      "Spark"
+    ]
+  }
+]

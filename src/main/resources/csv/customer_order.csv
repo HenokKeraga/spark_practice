@@ -1,0 +1,10 @@
+customerId,name,email,phone,address,orderId,productName,quantity,price,orderDate
+1,John Doe,john.doe@example.com,7890,123 Elm St,1001,Widget A,2,19.99,2023-10-01
+1,John Doe,john.doe@example.com,7890,123 Elm St,1002,Widget B,1,29.99,2023-10-02
+2,Jane Smith,jane.smith@example.com,8901,456 Oak St,1003,Gadget X,3,15.99,2023-10-03
+3,Emily Johnson,emily.j@example.com,9012,789 Pine St,1004,Widget C,5,10.99,2023-10-04
+3,Emily Johnson,emily.j@example.com,9012,789 Pine St,1005,Gadget Y,2,25.99,2023-10-05
+4,Robert Brown,robert.b@example.com,0123,101 Maple St,,,,
+5,Linda Green,linda.g@example.com,1234,202 Birch St,1006,Widget A,1,19.99,2023-10-06
+5,Linda Green,linda.g@example.com,1234,202 Birch St,1007,Gadget Z,4,12.99,2023-10-07
+6,Sarah Wilson,sarah.w@example.com,2345,303 Cedar St,,,,
