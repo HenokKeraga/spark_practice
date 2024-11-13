@@ -63,7 +63,7 @@ public class Main1 {
 
         Dataset<Row> dataset1 = dataset.selectExpr(
                 "Age", "CASE WHEN Age <= 18 THEN 'Minor' WHEN Age > 18 AND Age <= 30 THEN 'Adult' ELSE 'Senior' END AS Category_age_3"
-        ); // using selectExpr function
+        ); // using selectExpr function and SQL CASE Expression
         dataset1.show();
 
         sparkSession.stop();
