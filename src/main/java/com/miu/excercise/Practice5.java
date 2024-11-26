@@ -1,10 +1,7 @@
 package com.miu.excercise;
 
 import com.miu.model.practice.CustomerOrderDTO;
-import org.apache.spark.sql.Dataset;
-import org.apache.spark.sql.Encoders;
-import org.apache.spark.sql.RelationalGroupedDataset;
-import org.apache.spark.sql.SparkSession;
+import org.apache.spark.sql.*;
 import org.apache.spark.sql.types.*;
 
 import java.math.BigDecimal;
@@ -35,7 +32,7 @@ public class Practice5 {
                 .add("orderDate", DataTypes.DateType);
 
 
-        Dataset<CustomerOrderDTO> customerOrderDTODataset = spark.read().option("header", "true")
+        Dataset<Row> customerOrderDTODataset = spark.read().option("header", "true")
                 .schema(schema)
                 .csv("src/main/resources/csv/customer_order.csv")
 
@@ -44,7 +41,7 @@ public class Practice5 {
 //                .withColumn("orderDate", col("orderDate").cast(DataTypes.DateType))
 //                .withColumn("orderId", col("orderId").cast(DataTypes.LongType))
 //                .withColumn("customerId", col("customerId").cast(DataTypes.LongType))
-                .as(Encoders.bean(CustomerOrderDTO.class));
+               ;
         customerOrderDTODataset.show();
 
         customerOrderDTODataset
